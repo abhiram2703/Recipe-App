@@ -1,0 +1,33 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="60px"
+    android:background="#D9CB4F"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EFE69E"
+        android:textColor="@color/black"
+        android:id="@+id/addmn"
+        android:layout_marginBottom="40px"
+        android:text="ADD RECIPE"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:id="@+id/sermn"
+        android:layout_marginBottom="40px"
+        android:background="#EFE69E"
+        android:text="SEARCH RECIPE"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:id="@+id/delmn"
+        android:background="#EFE69E"
+        android:text="DELETE RECIPE"/>
+
+</LinearLayout>

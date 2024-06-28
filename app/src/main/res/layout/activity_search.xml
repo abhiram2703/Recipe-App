@@ -1,0 +1,40 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="60px"
+    android:background="#D9CB4F"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="60px"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seret"
+        android:textColor="@color/black"
+        android:textColorHint="#656666"
+        android:hint="Enter Title"
+        android:background="#EBDF72"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:textColor="@color/black"
+        android:layout_marginTop="30px"
+        android:id="@+id/serbtn"
+        android:background="#EFE69E"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:text="MENU"
+        android:textColor="@color/black"
+        android:id="@+id/serbck"
+        android:background="#EFE69E"/>
+
+</LinearLayout>
